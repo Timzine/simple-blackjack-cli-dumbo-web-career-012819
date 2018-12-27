@@ -69,7 +69,7 @@ def runner
   welcome
   sleep (1)
   initial_round 
-  hit?
+  until 
   
   
   
