@@ -67,7 +67,8 @@ end
 def runner
   # code runner here
   Welcome
-  sleep 
+  sleep (1)
+  prompt_user
   
   
   
