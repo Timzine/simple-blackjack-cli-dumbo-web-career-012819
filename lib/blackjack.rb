@@ -69,7 +69,9 @@ def runner
   welcome
   sleep (1)
   initial_round 
-  until 
+  until card_total > 21
+  hit?
+  display_card_total
   
   
   
