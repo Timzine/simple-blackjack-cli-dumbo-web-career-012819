@@ -41,7 +41,9 @@ end
 def hit(card_total)
   # code hit? here
   prompt_user
-  get_user_input
+  user_input = get_user_input
+   if user_input = "s" then 
+   elsif user_input = "h"then deal_card
   
   
 end
