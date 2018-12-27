@@ -66,9 +66,10 @@ end
 
 def runner
   # code runner here
-  Welcome
+  welcome
   sleep (1)
-  prompt_user
+  initial_round 
+  hit?
   
   
   
